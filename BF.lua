@@ -4,7 +4,7 @@ until game.Players.LocalPlayer
 local a = "https://raw.githubusercontent.com/Toswatq/534adw/refs/heads/main/bfl.lua"
 local a = loadstring(game:HttpGet(a))()
 local a = a:Window("BloxFruit")
-local Set = a:Tab("Settings Farm ", "rbxassetid://7129155278")
+local Set = a:Tab("Settings Farm ", "rbxassetid://9180622670")
 local Main = a:Tab("Auto Farm", "rbxassetid://7129155278")
 local Farm = a:Tab("Item Quest", "rbxassetid://7129155278")
 local Event = a:Tab("Sea Event", "rbxassetid://7129155278")

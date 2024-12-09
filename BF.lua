@@ -4,19 +4,19 @@ until game.Players.LocalPlayer
 local a = "https://raw.githubusercontent.com/Toswatq/534adw/refs/heads/main/bfl.lua"
 local a = loadstring(game:HttpGet(a))()
 local a = a:Window("BloxFruit")
-local Set = a:Tab("Settings Farm ", "rbxassetid://18899804355")
-local Main = a:Tab("Auto Farm", "rbxassetid://18899804355")
-local Farm = a:Tab("Item Quest", "rbxassetid://18899804355")
-local Event = a:Tab("Sea Event", "rbxassetid://18899804355")
-local Stats = a:Tab("Auto Stats", "rbxassetid://18899804355")
-local Tele = a:Tab("World Tele", "rbxassetid://18899804355")
-local Player = a:Tab("Player Pvp", "rbxassetid://18899804355")
-local Race = a:Tab("Race V4", "rbxassetid://18899804355")
-local Raid = a:Tab("Dungeon Raid", "rbxassetid://18899804355")
-local DemonFruit = a:Tab("Fruit Demon", "rbxassetid://18899804355")
-local Esp = a:Tab("Esp Player", "rbxassetid://18899804355")
-local Shop = a:Tab("Shopee", "rbxassetid://18899804355")
-local Misc = a:Tab("Miscellaneous", "rbxassetid://18899804355")
+local Set = a:Tab("Settings Farm ", "rbxassetid://7129155278")
+local Main = a:Tab("Auto Farm", "rbxassetid://7129155278")
+local Farm = a:Tab("Item Quest", "rbxassetid://7129155278")
+local Event = a:Tab("Sea Event", "rbxassetid://7129155278")
+local Stats = a:Tab("Auto Stats", "rbxassetid://7129155278")
+local Tele = a:Tab("World Tele", "rbxassetid://7129155278")
+local Player = a:Tab("Player Pvp", "rbxassetid://7129155278")
+local Race = a:Tab("Race V4", "rbxassetid://7129155278")
+local Raid = a:Tab("Dungeon Raid", "rbxassetid://7129155278")
+local DemonFruit = a:Tab("Fruit Demon", "rbxassetid://7129155278")
+local Esp = a:Tab("Esp Player", "rbxassetid://7129155278")
+local Shop = a:Tab("Shopee", "rbxassetid://7129155278")
+local Misc = a:Tab("Miscellaneous", "rbxassetid://7129155278")
 -----------------------------------------------------------------------------------------------------------------------------Function
 
 assert(getrawmetatable)
@@ -5853,7 +5853,7 @@ spawn(function()
                     game:GetService("StarterGui"):SetCore("SendNotification", {
                         Title = "Observation",
                         Text = "You Are Maxed Point",
-                        Icon = "rbxassetid://18899804355",
+                        Icon = "rbxassetid://7129155278",
                         Duration = 2.5
                     })
                     wait(2)
@@ -8259,7 +8259,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Superhuman" ,
-							Icon = "rbxassetid://18899804355",
+							Icon = "rbxassetid://7129155278",
 							Duration = 2.5
 						})
 					end
@@ -8271,7 +8271,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Death Step" ,
-							Icon = "rbxassetid://18899804355",
+							Icon = "rbxassetid://7129155278",
 							Duration = 2.5
 						})
 					end
@@ -8283,7 +8283,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have SharkMan Karate" ,
-							Icon = "rbxassetid://18899804355",
+							Icon = "rbxassetid://7129155278",
 							Duration = 2.5
 						})
 					end
@@ -8295,7 +8295,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Electric Claw" ,
-							Icon = "rbxassetid://18899804355",
+							Icon = "rbxassetid://7129155278",
 							Duration = 2.5
 						})
 					end
@@ -8305,7 +8305,7 @@ spawn(function()
 								game.StarterGui:SetCore("SendNotification", {
 									Title = "Notification", 
 									Text = "Not Have Enough Material" ,
-									Icon = "rbxassetid://18899804355",
+									Icon = "rbxassetid://7129155278",
 									Duration = 2.5
 								})
 							else
@@ -8316,7 +8316,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Dragon Talon" ,
-							Icon = "rbxassetid://18899804355",
+							Icon = "rbxassetid://7129155278",
 							Duration = 2.5
 						})
 					end
@@ -9991,7 +9991,7 @@ end)
 -----------------------------------------------------------------------------------------------------------------------------Misc Tab
 
 Misc:Button("Fruit Rain [ Old ]", function()
-    for i, v in pairs(game:GetObjects("rbxassetid://14759368201")[1]:GetChildren()) do
+    for i, v in pairs(game:GetObjects("rbxassetid://7129155278")[1]:GetChildren()) do
         v.Parent = game.Workspace.Map
         v:MoveTo(game.Players.LocalPlayer.Character.PrimaryPart.Position + Vector3.new(math.random(-50, 50), 100, math.random(-50, 50)))
         if v.Fruit:FindFirstChild("AnimationController") then
@@ -10663,7 +10663,7 @@ wait(1)
 end)
 
 Misc:Button("Rain Fruit", function(value)
-    for i, v in pairs(game:GetObjects("rbxassetid://14759368201")[1]:GetChildren()) do
+    for i, v in pairs(game:GetObjects("rbxassetid://7129155278")[1]:GetChildren()) do
             v.Parent = game.Workspace.Map
             v:MoveTo(game.Players.LocalPlayer.Character.PrimaryPart.Position + Vector3.new(math.random(-50, 50), 100, math.random(-50, 50)))
             if v.Fruit:FindFirstChild("AnimationController") then
@@ -10810,7 +10810,7 @@ Misc:Button("Kaitun Cap", function(value)
 		for k,v in pairs(cac) do
 			if ListHuhu[v] and game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Buy"..v,true) == 1 then 
 				local huhu = Instance.new("ImageLabel",MeleeG)
-				huhu.Image = "rbxassetid://9945562382"
+				huhu.Image = "rbxassetid://7129155278"
 				huhu.ImageRectSize = Vector2.new(100,100)
 				huhu.ImageRectOffset = ListHuhu[v]*100
 			end
@@ -11151,7 +11151,7 @@ Race:Button("Unlock Lever", function()
         tween:Play()
         local SoundSFX = Instance.new("Sound")
         SoundSFX.Parent = workspace
-        SoundSFX.SoundId = "rbxassetid://1904813041"
+        SoundSFX.SoundId = "rbxassetid://7129155278"
         SoundSFX:Play()
         SoundSFX.Name = "POwfpxzxzfFfFF"
         game:GetService("Workspace").Map["Temple of Time"].Lever.Prompt:FindFirstChild("ProximityPrompt"):Remove()
